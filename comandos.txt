@@ -1,0 +1,22 @@
+  490  mkdir Actividades
+  491  cd Actividades
+  492  mkdir 'Deportes de equipo' 'Deportes acuaticos' 'Deportes extremos' 'Deportes de mesa' 'Deportes mentales'
+  493  touch Basquet Ajedrez.txt 'Ping pong'
+  494  mv Basquet 'Deportes de equipo'
+  495  mv Ajedrez.txt 'Deportes mentales'
+  496  mv 'Píng Pong' 'Deportes de mesa'
+  497  ls
+  498  mv 'Ping pong' 'Deportes de mesa'
+  499  ls
+  500  ls -a
+  501  ls -R
+  502  pwd
+  503  git init
+  504  git add .
+  505  git commit -m "Subo los archivos según lo indicado"
+  506  git push origin main
+  507  git remote add https://github.com/na7hk3r/test-ExamenIntro
+  508  git remote add origin https://github.com/na7hk3r/test-ExamenIntro
+  509  git remote -v
+  510  git push origin main
+  511  history 50 > comandos.txt
